@@ -13,7 +13,6 @@ public class ListsInJava {
         stringList.add("Green");
 
         System.out.println(stringList);
-        stringList.forEach(String::toLowerCase);
         System.out.println(stringList);
 
 

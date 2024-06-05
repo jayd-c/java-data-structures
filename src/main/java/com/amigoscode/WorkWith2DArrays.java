@@ -7,10 +7,10 @@ public class WorkWith2DArrays {
         char[][] board = new char[5][5];
 
         for(int i = 0; i<board.length; i++) {
-            for(int j = 0; j<=i ; j++) {
-                System.out.print("*");
+            for(int j = 0; j< board.length/2 ; j++) {
+                System.out.print(" ");
             }
-            System.out.println();
+
         }
 
     }
