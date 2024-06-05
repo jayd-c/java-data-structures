@@ -15,6 +15,8 @@ public class WorkingWithSets {
         balls.add(new Ball("Blue"));
         balls.add(new Ball("Orange"));
 
+
+
         balls.forEach(System.out::println);
 
     }
